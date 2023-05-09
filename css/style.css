@@ -27,9 +27,14 @@ nav {
     display: inline-block;
 }
 
+nav > * {
+    background-color: orange;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
 }
 
 
@@ -51,6 +56,16 @@ nav {
     background-color: blue;
     width: 1200px;
     height: 600px;
+    align-items: center;
+}
+
+.section-container {
+    display: flex;
+    background-color: plum;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -62,10 +77,13 @@ nav {
 } */
 
 nav > * {
-    background-color: orange;
     border: 2px dashed black;
 }
 
 div > img, a {
     padding: 0 50px;
+}
+
+.section-container {
+    border: 2px dashed black;
 }
