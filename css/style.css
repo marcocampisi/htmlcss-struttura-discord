@@ -103,22 +103,57 @@ nav > * {
     align-items: center;
 }
 
+#footer-top {
+    background-color: black;
+    height: 500px;
+ }
+
+#footer-bottom {
+    background-color: lightseagreen;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+ .fc {
+    height: 90%;
+    width: calc(100% / 6);
+    background-color: aquamarine;
+    margin: 0 2px;
+ }
+
+ #fc2 {
+    width: calc(100% / 3);
+    background-color: lightcoral;
+ }
+
+#footer-bottom .logo {
+    align-items: flex-end;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+#footer-button {
+    background-color: gray;
+    border: 0px;
+    padding: 10px;
+}
+
 
 /* DEBUG */
 
 /* .debug header, .debug footer {
     background-color: lightgray;
     height: 100px;
-} */
+}
 
-/* nav > * {
+nav > * {
     border: 2px dashed black;
-} */
+}
 
-/* div > img, a {
+div > img, a {
     padding: 0 50px;
-} */
+}
 
-/* .section-container {
+.section-container {
     border: 2px dashed black;
 } */
