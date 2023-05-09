@@ -21,6 +21,8 @@ nav {
 
 nav > * {
     background-color: orange;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 .logo {
