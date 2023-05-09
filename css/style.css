@@ -31,6 +31,10 @@ nav > * {
     background-color: orange;
 }
 
+div > img, a {
+    padding: 0 50px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -80,9 +84,9 @@ nav > * {
     border: 2px dashed black;
 }
 
-div > img, a {
+/* div > img, a {
     padding: 0 50px;
-}
+} */
 
 .section-container {
     border: 2px dashed black;
