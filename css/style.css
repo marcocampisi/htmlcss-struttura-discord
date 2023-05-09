@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.my-col-small {
+    width: 30%;
+}
+
+.my-col-big {
+    width: 60%;
+}
+
+/* DEBUG */
+
+.debug header, .debug footer {
+    background-color: lightgray;
+    height: 100px;
+}
