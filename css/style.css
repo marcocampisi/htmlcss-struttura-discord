@@ -64,15 +64,15 @@ nav > * {
     background-color: blue;
 }
 
-#second-section {
+main > section {
     background-color: white;
 }
 
-#third-section {
+main > section:nth-child(2n) {
     background-color: lightgray;
 }
 
-#fifth-section {
+#green-con {
     background-color: gray;
 }
 
